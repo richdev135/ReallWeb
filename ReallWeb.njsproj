@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0b636c18-0786-42d7-8ee7-955dd2aa2947}</ProjectGuid>
+    <ProjectHome />
+    <ProjectView>ShowAllFiles</ProjectView>
+    <StartupFile>ReallWeb\bin\www</StartupFile>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Content Include="ReallWeb\package.json" />
+    <Content Include="ReallWeb\public\test.html" />
+    <Content Include="ReallWeb\README.md" />
+    <Compile Include="ReallWeb\app.js" />
+    <Compile Include="ReallWeb\public\scripts\script.js" />
+    <Compile Include="ReallWeb\routes\index.js" />
+    <Compile Include="ReallWeb\routes\users.js" />
+    <Content Include="ReallWeb\views\error.jade" />
+    <Content Include="ReallWeb\views\HTML1.html" />
+    <Content Include="ReallWeb\views\index.jade" />
+    <Content Include="ReallWeb\views\layout.jade" />
+    <Compile Include="ReallWeb\public\scripts\react-dom-server.js" />
+    <Compile Include="ReallWeb\public\scripts\react-dom-server.min.js" />
+    <Compile Include="ReallWeb\public\scripts\react-dom.js" />
+    <Compile Include="ReallWeb\public\scripts\react-dom.min.js" />
+    <Compile Include="ReallWeb\public\scripts\react-with-addons.js" />
+    <Compile Include="ReallWeb\public\scripts\react-with-addons.min.js" />
+    <Compile Include="ReallWeb\public\scripts\react.js" />
+    <Compile Include="ReallWeb\public\scripts\react.min.js" />
+    <Content Include="ReallWeb\public\stylesheets\style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ReallWeb" />
+    <Folder Include="ReallWeb\bin" />
+    <Folder Include="ReallWeb\node_modules" />
+    <Folder Include="ReallWeb\node_modules\body-parser" />
+    <Folder Include="ReallWeb\node_modules\body-parser\lib" />
+    <Folder Include="ReallWeb\node_modules\body-parser\lib\types" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\bytes" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\content-type" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\depd" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\depd\lib" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\depd\lib\compat" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\http-errors" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\http-errors\node_modules" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\http-errors\node_modules\inherits" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\http-errors\node_modules\statuses" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\iconv-lite" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\iconv-lite\encodings" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\iconv-lite\encodings\tables" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\iconv-lite\lib" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\on-finished" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\on-finished\node_modules" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\on-finished\node_modules\ee-first" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\qs" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\qs\lib" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\qs\test" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\raw-body" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\raw-body\node_modules" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\raw-body\node_modules\bytes" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\raw-body\node_modules\iconv-lite" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\raw-body\node_modules\iconv-lite\encodings" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\raw-body\node_modules\iconv-lite\encodings\tables" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\raw-body\node_modules\iconv-lite\lib" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\raw-body\node_modules\unpipe" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\type-is" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\type-is\node_modules" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\type-is\node_modules\media-typer" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\type-is\node_modules\mime-types" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\node_modules" />
+    <Folder Include="ReallWeb\node_modules\body-parser\node_modules\type-is\node_modules\mime-types\node_modules\mime-db" />
+    <Folder Include="ReallWeb\node_modules\cookie-parser" />
+    <Folder Include="ReallWeb\node_modules\cookie-parser\lib" />
+    <Folder Include="ReallWeb\node_modules\cookie-parser\node_modules" />
+    <Folder Include="ReallWeb\node_modules\cookie-parser\node_modules\cookie" />
+    <Folder Include="ReallWeb\node_modules\cookie-parser\node_modules\cookie-signature" />
+    <Folder Include="ReallWeb\node_modules\debug" />
+    <Folder Include="ReallWeb\node_modules\debug\node_modules" />
+    <Folder Include="ReallWeb\node_modules\debug\node_modules\ms" />
+    <Folder Include="ReallWeb\node_modules\express" />
+    <Folder Include="ReallWeb\node_modules\express\lib" />
+    <Folder Include="ReallWeb\node_modules\express\lib\middleware" />
+    <Folder Include="ReallWeb\node_modules\express\lib\router" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\accepts" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\accepts\node_modules" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\accepts\node_modules\mime-types" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\accepts\node_modules\mime-types\node_modules" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\accepts\node_modules\mime-types\node_modules\mime-db" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\accepts\node_modules\negotiator" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\accepts\node_modules\negotiator\lib" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\array-flatten" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\content-disposition" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\content-type" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\cookie" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\cookie-signature" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\depd" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\depd\lib" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\depd\lib\browser" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\depd\lib\compat" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\escape-html" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\etag" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\finalhandler" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\finalhandler\node_modules" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\finalhandler\node_modules\unpipe" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\fresh" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\merge-descriptors" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\methods" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\on-finished" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\on-finished\node_modules" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\on-finished\node_modules\ee-first" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\parseurl" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\path-to-regexp" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\proxy-addr" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\proxy-addr\node_modules" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\proxy-addr\node_modules\forwarded" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\proxy-addr\node_modules\ipaddr.js" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\proxy-addr\node_modules\ipaddr.js\lib" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\proxy-addr\node_modules\ipaddr.js\src" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\proxy-addr\node_modules\ipaddr.js\test" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\qs" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\qs\lib" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\qs\test" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\range-parser" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\send" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\send\node_modules" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\send\node_modules\destroy" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\send\node_modules\http-errors" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\send\node_modules\http-errors\node_modules" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\send\node_modules\http-errors\node_modules\inherits" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\send\node_modules\mime" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\send\node_modules\mime\build" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\send\node_modules\ms" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\send\node_modules\statuses" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\serve-static" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\serve-static\node_modules" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\serve-static\node_modules\send" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\serve-static\node_modules\send\node_modules" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\destroy" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\http-errors" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\http-errors\node_modules" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\http-errors\node_modules\inherits" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\mime" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\mime\build" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\ms" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\statuses" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\type-is" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\type-is\node_modules" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\type-is\node_modules\media-typer" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\type-is\node_modules\mime-types" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\type-is\node_modules\mime-types\node_modules" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\type-is\node_modules\mime-types\node_modules\mime-db" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\utils-merge" />
+    <Folder Include="ReallWeb\node_modules\express\node_modules\vary" />
+    <Folder Include="ReallWeb\node_modules\jade" />
+    <Folder Include="ReallWeb\node_modules\jade\bin" />
+    <Folder Include="ReallWeb\node_modules\jade\lib" />
+    <Folder Include="ReallWeb\node_modules\jade\lib\nodes" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\character-parser" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\clean-css" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\clean-css\bin" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\clean-css\lib" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\clean-css\lib\colors" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\clean-css\lib\imports" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\clean-css\lib\properties" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\clean-css\lib\selectors" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\clean-css\lib\source-maps" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\clean-css\lib\stringifier" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\clean-css\lib\text" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\clean-css\lib\tokenizer" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\clean-css\lib\urls" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\clean-css\lib\utils" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\clean-css\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\clean-css\node_modules\commander" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\clean-css\node_modules\commander\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\clean-css\node_modules\commander\node_modules\graceful-readlink" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\clean-css\node_modules\source-map" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\clean-css\node_modules\source-map\build" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\clean-css\node_modules\source-map\lib" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\clean-css\node_modules\source-map\lib\source-map" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\clean-css\node_modules\source-map\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\clean-css\node_modules\source-map\node_modules\amdefine" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\commander" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\constantinople" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\constantinople\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\constantinople\node_modules\acorn" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\constantinople\node_modules\acorn\bin" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\constantinople\node_modules\acorn\dist" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\constantinople\node_modules\acorn\src" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\constantinople\node_modules\acorn\src\bin" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\constantinople\node_modules\acorn\src\loose" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\constantinople\node_modules\acorn\src\walk" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\constantinople\test" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\jstransformer" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\jstransformer\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\jstransformer\node_modules\is-promise" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\jstransformer\node_modules\promise" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\jstransformer\node_modules\promise\lib" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\jstransformer\node_modules\promise\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\jstransformer\node_modules\promise\node_modules\asap" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\mkdirp" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\mkdirp\bin" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\mkdirp\examples" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\mkdirp\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\mkdirp\node_modules\minimist" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\mkdirp\node_modules\minimist\example" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\mkdirp\node_modules\minimist\test" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\mkdirp\test" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\lib" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\css" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\css\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\css\node_modules\css-parse" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\css\node_modules\css-stringify" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\promise" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\promise\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\promise\node_modules\is-promise" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\uglify-js" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\uglify-js\bin" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\uglify-js\lib" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\uglify-js\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\uglify-js\node_modules\optimist" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\uglify-js\node_modules\optimist\example" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\uglify-js\node_modules\optimist\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\uglify-js\node_modules\optimist\node_modules\wordwrap" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\uglify-js\node_modules\optimist\node_modules\wordwrap\example" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\uglify-js\node_modules\optimist\node_modules\wordwrap\test" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\uglify-js\node_modules\optimist\test" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\uglify-js\node_modules\optimist\test\_" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\uglify-js\node_modules\source-map" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\uglify-js\node_modules\source-map\build" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\uglify-js\node_modules\source-map\lib" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\uglify-js\node_modules\source-map\lib\source-map" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\uglify-js\node_modules\source-map\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\uglify-js\node_modules\source-map\node_modules\amdefine" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\uglify-js\node_modules\source-map\test" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\uglify-js\node_modules\source-map\test\source-map" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\uglify-js\test" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\uglify-js\test\compress" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\transformers\node_modules\uglify-js\tools" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\bin" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\lib" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\async" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\async\lib" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\source-map" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\source-map\dist" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\source-map\lib" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\uglify-to-browserify" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\uglify-to-browserify\test" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\lib" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\camelcase" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\center-align" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\center-align\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\center-align\node_modules\align-text" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\center-align\node_modules\align-text\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\center-align\node_modules\align-text\node_modules\kind-of" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\center-align\node_modules\align-text\node_modules\kind-of\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\center-align\node_modules\align-text\node_modules\kind-of\node_modules\is-buffer" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\center-align\node_modules\align-text\node_modules\kind-of\node_modules\is-buffer\test" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\center-align\node_modules\align-text\node_modules\longest" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\center-align\node_modules\align-text\node_modules\repeat-string" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\center-align\node_modules\lazy-cache" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\right-align" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\right-align\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\right-align\node_modules\align-text" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\right-align\node_modules\align-text\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\right-align\node_modules\align-text\node_modules\kind-of" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\right-align\node_modules\align-text\node_modules\kind-of\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\right-align\node_modules\align-text\node_modules\kind-of\node_modules\is-buffer" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\right-align\node_modules\align-text\node_modules\kind-of\node_modules\is-buffer\test" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\right-align\node_modules\align-text\node_modules\longest" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\right-align\node_modules\align-text\node_modules\repeat-string" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\wordwrap" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\wordwrap\example" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\node_modules\wordwrap\test" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\cliui\test" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\decamelize" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\node_modules\yargs\node_modules\window-size" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\uglify-js\tools" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\void-elements" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\void-elements\test" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\with" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\with\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\with\node_modules\acorn" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\with\node_modules\acorn\bin" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\with\node_modules\acorn\dist" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\with\node_modules\acorn\src" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\with\node_modules\acorn\src\loose" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\with\node_modules\acorn\src\walk" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\with\node_modules\acorn-globals" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\with\node_modules\acorn-globals\node_modules" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\with\node_modules\acorn-globals\node_modules\acorn" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\with\node_modules\acorn-globals\node_modules\acorn\bin" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\with\node_modules\acorn-globals\node_modules\acorn\dist" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\with\node_modules\acorn-globals\node_modules\acorn\src" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\with\node_modules\acorn-globals\node_modules\acorn\src\bin" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\with\node_modules\acorn-globals\node_modules\acorn\src\loose" />
+    <Folder Include="ReallWeb\node_modules\jade\node_modules\with\node_modules\acorn-globals\node_modules\acorn\src\walk" />
+    <Folder Include="ReallWeb\node_modules\morgan" />
+    <Folder Include="ReallWeb\node_modules\morgan\node_modules" />
+    <Folder Include="ReallWeb\node_modules\morgan\node_modules\basic-auth" />
+    <Folder Include="ReallWeb\node_modules\morgan\node_modules\depd" />
+    <Folder Include="ReallWeb\node_modules\morgan\node_modules\depd\lib" />
+    <Folder Include="ReallWeb\node_modules\morgan\node_modules\depd\lib\compat" />
+    <Folder Include="ReallWeb\node_modules\morgan\node_modules\on-finished" />
+    <Folder Include="ReallWeb\node_modules\morgan\node_modules\on-finished\node_modules" />
+    <Folder Include="ReallWeb\node_modules\morgan\node_modules\on-finished\node_modules\ee-first" />
+    <Folder Include="ReallWeb\node_modules\morgan\node_modules\on-headers" />
+    <Folder Include="ReallWeb\node_modules\serve-favicon" />
+    <Folder Include="ReallWeb\node_modules\serve-favicon\node_modules" />
+    <Folder Include="ReallWeb\node_modules\serve-favicon\node_modules\etag" />
+    <Folder Include="ReallWeb\node_modules\serve-favicon\node_modules\fresh" />
+    <Folder Include="ReallWeb\node_modules\serve-favicon\node_modules\ms" />
+    <Folder Include="ReallWeb\node_modules\serve-favicon\node_modules\parseurl" />
+    <Folder Include="ReallWeb\public" />
+    <Folder Include="ReallWeb\public\scripts" />
+    <Folder Include="ReallWeb\public\stylesheets" />
+    <Folder Include="ReallWeb\routes" />
+    <Folder Include="ReallWeb\views" />
+    <Folder Include="RemoteSystemsTempFiles" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <!--Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them.-->
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

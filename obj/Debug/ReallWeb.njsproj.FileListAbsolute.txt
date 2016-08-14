@@ -1,0 +1,2 @@
+C:\dev\projects\ReallWeb\obj\Debug\ReallWeb.njsprojResolveAssemblyReference.cache
+C:\dev\projects\ReallWeb\bin\Microsoft.NodejsTools.WebRole.dll
